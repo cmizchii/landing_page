@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  transform-box: border-box;
+}
+
+/* part 1 */
+.hero.container {
+  background-color: #1f2937;
+}
+/* HEADER */
+header.container {
+display: flex;
+justify-content: space-between;
+padding-left: 10rem;
+padding-right: 10rem;
+padding-top: 1rem;
+margin-bottom: 2rem;
+
+
+}
+
+nav.container {
+  display: flex;
+  gap: 0.5rem;
+  
+}
+
+/* main part*/
+
+.main-text.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  
+}
+
+.main-img {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+ max-width: 650px;
+ min-width: 250px;
+}
+
+.main.container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 5rem;
+  gap: 100px;
+  
+}
+
